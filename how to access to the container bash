@@ -1,0 +1,3 @@
+docker exec -it <container id> bash  -----> debe estar ejecutandose el
+                                             container validar con
+                                            docker container ls
