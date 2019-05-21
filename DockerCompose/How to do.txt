@@ -1,0 +1,9 @@
+https://docs.docker.com/compose/gettingstarted/
+
+
+
+
+---PARA PARAR PERO NO MATAR AL CONTAINER USAR 
+docker-compose -f asdasnd stop;
+con down matas todo y se pierde todo
+docker-compose -f asdasd down ---> chau paris

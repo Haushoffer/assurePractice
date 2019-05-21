@@ -1,0 +1,20 @@
+http://www.mysqltutorial.org/mysql-create-table/
+
+CREATE DATABASE student;
+USE student;
+
+CREATE TABLE IF NOT EXISTS student (
+    id INT AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    phone INTEGER,
+    PRIMARY KEY (id)
+)  ENGINE=INNODB;
+
+INSERT INTO student(id,name,last_name,phone) VALUES
+(null,'juan','perez',4603595),
+(null,'pepe','gomes',2486981),
+(null,'juan','rodriguez',1589655),
+(null,'lucas','gomes',796584464);
+
+SELECT * FROM student;
